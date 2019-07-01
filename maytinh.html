@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy Tính Bỏ Túi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+    <div id="khung">
+    <tr><td colspan="4">
+        <input type="text" id="result"/>
+    </td> </tr>
+    <tr>
+        <td>
+            <button value="1" onclick="result.value+=this.value">1</button>
+            <button value="2" onclick="result.value+=this.value">2</button>
+            <button value="3" onclick="result.value+=this.value">3</button>
+            <button value="+" onclick="result.value+=this.value">+</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button value="4" onclick="result.value+=this.value">4</button>
+            <button value="5" onclick="result.value+=this.value">5</button>
+            <button value="6" onclick="result.value+=this.value">6</button>
+            <button value="-" onclick="result.value+=this.value">-</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button value="7" onclick="result.value+=this.value">7</button>
+            <button value="8" onclick="result.value+=this.value">8</button>
+            <button value="9" onclick="result.value+=this.value">9</button>
+            <button value="*" onclick="result.value+=this.value">x</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button value="xoa" onclick="result.value='0'">C</button>
+            <button value="0" onclick="result.value+=this.value">0</button>
+            <button value="=" onclick="result.value=eval(result.value)">=</button>
+            <button value="/" onclick="result.value+=this.value">/</button>
+        </td>
+    </tr>
+    </div>
+</table>
+</body>
+</html>
